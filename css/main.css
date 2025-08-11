@@ -225,7 +225,6 @@ h6 {
 --------------------------------------------------------------*/
 .header {
   color:#000;
-  background-color: #122;
   padding: 20px 0;
   transition: all 0.5s;
   z-index: 997;
@@ -236,7 +235,7 @@ h6 {
 }
 
 .header .logo img {
- width: 120px;
+ width: 160px;
  height: 60px;
   margin-right: 8px;
   border-radius:12px ;
@@ -290,7 +289,7 @@ h6 {
 
 .scrolled .header {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
-  background: #091f46;
+  background: #eee;
 }
 
 /*--------------------------------------------------------------
@@ -326,7 +325,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color:#fff;
+    color:#000;
     font-size: 15px;
     padding: 0 2px;
     font-family: var(--nav-font);
@@ -370,7 +369,7 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: #efbf6a;
+    color: #d98f0c;
   }
 
   .navmenu .dropdown ul {
@@ -569,7 +568,7 @@ h6 {
 }
 
 .footer .icon {
-  color: var(--accent-color);
+  color: #d98f0c;
   margin-right: 15px;
   font-size: 24px;
   line-height: 0;
@@ -813,7 +812,7 @@ section,
 }
 
 .section-title p .description-title {
-  color: var(--accent-color);
+  color: #e7aa27;
   font-family: 'bootstrap-icons';
 }
 
@@ -1163,7 +1162,7 @@ section,
 .menu .nav-link.active {
   background-color: var(--background-color);
   color: var(--accent-color);
-  border-color: var(--accent-color);
+  border-color: #e7aa27;
 }
 
 .menu .tab-content .tab-header {
@@ -1679,22 +1678,43 @@ section,
 # Starter Section Section
 --------------------------------------------------------------*/
    /*  whatsapp*/
-   .whats-app {
+  
+/*  واتساب وفون */
+#fixedWhatsAppIcon {
+    display: block;
     position: fixed;
-    width: 55px;
-    height: 51px;
-    bottom: 109px;
-    left: 20px;
-    background-color: #237cb8;
-    color: #FFF;
-    border-radius: 50px;
+    left: 22px;
+    bottom: 180px;
+    width: 56px;
+    height: 53px;
+    background-color: #54b460;
     text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;}
-    .whats{
-      color: #fff;
-    }
+    line-height: 50px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+    z-index: 9999;
+  }
+  #fixedWhatsAppIcon:hover {
+    background-color: #339933;
+  } 
+  /*  whatsapp*/
+.whats-app {
+  position: fixed;
+  width: 55px;
+  height: 51px;
+  bottom: 109px;
+  left: 20px;
+  background-color: #237cb8;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;}
+  .whats{
+    color: #fff;
+  }
 
 
     /*  whatsapp*/
